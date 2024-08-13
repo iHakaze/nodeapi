@@ -13,7 +13,7 @@ const credentials = require("./middlewire/credentials.js")
 
 const PORT = process.env.PORT || 3000
 
-const connection =  mysql.createConnection(dbconfig);
+const connection =  mysql.createPool(dbconfig);
 
 app.use(logger);
 //handle option credentials check - before CORS
@@ -49,7 +49,7 @@ app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send('Something went wrong!');
 });
-connection.connect(function (err) {
+connection.getConnection(function (err) {
     if(!err){
       console.log('Connected to MySQL database!');
       app.listen(PORT,()=>{
