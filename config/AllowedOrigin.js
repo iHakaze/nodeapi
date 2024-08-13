@@ -1,5 +1,5 @@
 const AllowedOrigin =[
-    "https://www.jsaavedra.tech",
+    "https://jsaavedra.tech",
  
 ]
 
