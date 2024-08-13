@@ -1,0 +1,5 @@
+2024-08-12	08:11:14	0e0dd3ff-095a-4008-a2a9-7e75d0de578d	GET	undefined	/
+2024-08-12	08:11:14	a6b0d4f2-76cd-4faf-95a1-4b78c96a918e	GET	undefined	/favicon.ico
+2024-08-12	08:11:18	4194fe20-0b93-4b90-bc89-ce6504ba818a	GET	undefined	/content/
+2024-08-12	10:36:36	b57ab992-f7c6-4005-a665-448eade42d10	GET	http://localhost:5173	/refresh
+2024-08-12	10:38:00	539a57b4-9d9d-42af-8246-1cd3f3c6544f	GET	http://localhost:5173	/refresh
