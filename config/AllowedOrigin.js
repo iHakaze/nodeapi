@@ -1,7 +1,6 @@
 const AllowedOrigin =[
-    "https://www.yoursite.com",
-    "http://localhost:3000",
-    "http://localhost:5173",
+    "https://www.jsaavedra.tech",
+ 
 ]
 
 module.exports = AllowedOrigin ;
