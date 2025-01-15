@@ -21,8 +21,8 @@ app.use(logger);
 app.use(credentials);
 
 // Cors = Cross Origin Resource Sharing
-// app.use(cors(corsOptions));
-app.use(cors());
+ app.use(cors(corsOptions));
+// app.use(cors());
 
 app.use(express.urlencoded({extended:false}));
 
